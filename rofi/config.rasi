@@ -1,0 +1,16 @@
+configuration{
+	display-drun: "Applications ";
+    display-window: "Windows ";
+	display-run: "Run ";
+	drun-display-format:"{icon} {name}";
+    modi: "drun,window,run";
+    show-icons: true;
+    icon-theme: "Papirus";
+    terminal: "alacritty";
+    location: 0;
+	disable-history: true;
+    hide-scrollbar: true;
+    sidebar-mode: true;
+}
+
+@theme "~/.config/rofi/themes/android.rasi"
